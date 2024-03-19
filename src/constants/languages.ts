@@ -1,21 +1,21 @@
 /**
-* A union type of all translations that must exist for all languages
-*/
+ * A union type of all translations that must exist for all languages
+ */
 type NecessaryShortcut = "native" | "de" | "en";
 
 /**
-* The type for an object of translations. Every translations must at least include all the `NecessaryShortcut`
-* @example
-* ```typescript
-* const shortcuts: LanguageShortcut = {
-*	native: "tlhIngan Hol",
-*	de: "Klingonisch",
-*	en: "Klingon",
-*	fr: "Klingon",
-*	ja: "クリンゴン語",
-* }
-* ```
-*/
+ * The type for an object of translations. Every translations must at least include all the `NecessaryShortcut`
+ * @example
+ * ```typescript
+ * const shortcuts: LanguageShortcut = {
+ *	native: "tlhIngan Hol",
+ *	de: "Klingonisch",
+ *	en: "Klingon",
+ *	fr: "Klingon",
+ *	ja: "クリンゴン語",
+ * }
+ * ```
+ */
 export type LanguageShortcut = Record<NecessaryShortcut, string> &
 	Record<string, string>;
 

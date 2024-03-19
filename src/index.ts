@@ -1,7 +1,6 @@
 import { languageShortcuts } from "./constants/languages";
 import { findValue } from "./utils/objects";
 
-
 /**
  * Finds the language code based on a given string representation of a language.
  * @param str The string representation of the language, this is case sensitive!
