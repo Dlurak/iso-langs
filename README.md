@@ -1,25 +1,14 @@
-# TypeScript Library Template
+# iso-langs
 
-A template repository to bootstrap your own typescript library blazingly fast.
+A library to get translations to work with iso codes from languages.
+**This library includes many languages, but not all!**
 
-## Features
+## Installation
 
-This template brings many features:
+```bash
+$ npm i iso-langs
+```
 
-- **Bundling** with TypeScript declerations, ES modules and common js using [tsup](https://github.com/egoist/tsup)
-- **Tests** using [vitest](https://github.com/vitest-dev/vitest)
-- **Documentation** from JS-Doc comments using [typedoc](https://typedoc.org/)
+## Documentation
 
-### CI/CD
-
-These are still work in progress
-
-- [x] Building and deploying the docs to GitHub Pages
-- [ ] Uploading the library to npm
-- [ ] Lint/Formatting checks
-
-## Getting started
-
-1. Use this template
-2. Update the `package.json`
-3. Start writing code 🚀
+Documentation is available [here](https://dlurak.github.io/iso-langs/).

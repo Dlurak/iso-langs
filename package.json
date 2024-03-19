@@ -1,6 +1,6 @@
 {
-  "name": "library",
-  "description": "",
+  "name": "iso-langs",
+  "description": "A easy way to work with iso language codes",
   "version": "1.0.0",
   "license": "MIT",
   "keywords": [],
